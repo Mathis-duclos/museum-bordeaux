@@ -191,6 +191,9 @@ footer a:hover {
 
 
 /* Section RÉSERVÉE au HEADER*/
+header{
+    margin: 8px;
+}
 nav {
     font-family: 'Outfit';
     display: block;
@@ -257,14 +260,21 @@ header select {
     display: flex;
     justify-content: space-between;
 }
+.divheader button{
+    padding-left: 6px;
+    padding-right: 6px;
+}
 
 .titre {
+    margin-left: 10px;
+    font-size: 2em;
+    margin: 21.440px;
     margin-left: 10px;
 }
 
 .logonom {
+    margin: 8px;
     display: flex;
-
 }
 
 hr {

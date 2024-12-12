@@ -100,19 +100,16 @@ p {
 #Infos_tarifs {
     display: flex;
     justify-content: space-between; 
-    width: calc(100% - 288px); 
-    margin: 0 auto;  
     gap: 20px;  
 }
 
 #Infos_tarifs section {
     background-color: #ffffff;
-    border: 1px solid #bebebe;
+    border: none;
     padding: 40px;
     flex: 1;  
     text-align: center;
     box-sizing: border-box; 
-    border-radius: 8px; 
 }
 
 /* SECTION RÉSERVÉE Pour les petites résolutions d'écran genre une fenetre a la verticale, un écran tourné, ou un téléphone vertical comme une iPhone 42 pro max ultra */

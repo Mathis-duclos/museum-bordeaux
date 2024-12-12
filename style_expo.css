@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@100..900&display=swap');
+
+* { /* pour enlever les trucs par défaut du navigateur */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Instrument Serif';
+    font-size: 56px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Instrument Serif';
+    font-size: 32px;
+}
+
+h3 {
+    font-family: Outfit;
+    font-size: 32px;
+    margin-bottom: 70px;
+
+}
+
+p {
+    font-family: outfit;
+    font-size: 24px;
+}
+
+#reserver {
+    background-color: #FFF5D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+    margin: 0;
+    padding: 144px;
+}
+
+#le_haut h1 {
+    margin: 0;
+}
+
+#le_haut {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url("images/grois_oiseau.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 84px 0 0 144px;
+    text-align: left;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+#gallery {
+    background-color : #514151;
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+    padding-left: 144px; 
+    padding-right: 144px;
+    padding-top : 56px ;
+    padding-bottom : 56px ;
+    box-sizing: border-box;
+    overflow: hidden; 
+    gap: 20px; 
+}
+
+#gallery img {
+    height: auto; 
+    margin: 0 auto; 
+    display: block;
+    flex-basis: 350px;
+    flex-shrink: 1;
+}
+
+.fit-picture {
+    width: 150px;
+}
+
+#Infos_tarifs {
+    display: flex;
+    justify-content: space-between; 
+    width: calc(100% - 288px); 
+    margin: 0 auto;  
+    gap: 20px;  
+}
+
+#Infos_tarifs section {
+    background-color: #ffffff;
+    border: 1px solid #bebebe;
+    padding: 40px;
+    flex: 1;  
+    text-align: center;
+    box-sizing: border-box; 
+    border-radius: 8px; 
+}
+
+/* Pour les petites résolutions d'écran genre une fenetre a la verticale, un ecran tourné, ou un tlephone */
+@media (max-width: 1024px) {
+    #Infos_tarifs {
+        flex-direction: column;
+    }
+
+    #Infos_tarifs section {
+        width: 100%;  
+        margin: 10px 0;
+    }
+}
+@media (max-width: 768px) {
+    #Infos_tarifs section {
+        width: 100%; /
+        margin: 10px 0;  
+    }
+}
+@media (max-width: 768px) {
+    #Infos_tarifs section {
+        width: 100%; 
+        margin: 10px 0;
+    }
+}
+/* fin de la section reservée pour les petis ecran (encore plus petits que Hélène) */
+
+.styled {
+    border: 0;
+    font-size: 24px;
+    padding: 24px 40px;
+    text-align: center;
+    color: #000000;
+    background-color: #FFDB78;
+    margin: 32px;
+}
+
+.styled:hover {
+    background-color: #FECA3D;
+}
+
+footer {
+    background-color: #281E32;
+    text-align: center;
+    padding: 35px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 32px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: outfit;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+#description{ 
+    padding: 100px 300px 200px 144px;
+}

@@ -29,6 +29,8 @@ h3 {
 }
 
 p {
+    margin-left: 144px;
+    margin-right: 144px;
     font-family: outfit;
     font-size: 24px;
 }

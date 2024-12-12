@@ -7,7 +7,10 @@
     src: url(font/Outfit-Regular.ttf)format('truetype');
 }
 
-
+*{
+    padding:0px;
+    margin: 0px;
+}
 
 h1 {
     font-family: 'Instrument_Serif';
@@ -35,6 +38,9 @@ p {
     font-size: 24px;
 }
 
+header{
+    margin: 8px;
+}
 nav {
     font-family: 'Outfit';
     display: block;
@@ -101,14 +107,21 @@ header select {
     display: flex;
     justify-content: space-between;
 }
+.divheader button{
+    padding-left: 6px;
+    padding-right: 6px;
+}
 
 .titre {
+    margin-left: 10px;
+    font-size: 2em;
+    margin: 21.440px;
     margin-left: 10px;
 }
 
 .logonom {
+    margin: 8px;
     display: flex;
-
 }
 
 hr {
@@ -126,6 +139,13 @@ hr {
     background-color: white;
     z-index: 1;
 }
+
+button img {
+    width: 15px;
+    height: 15px;
+}
+
+
 
 
 .imagemusee {
@@ -381,6 +401,8 @@ button img {
 }
 
 .horaires h1 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     font-family: 'Instrument_Serif';
     font-weight: lighter;
     font-size: 56px;
@@ -392,6 +414,8 @@ button img {
     font-weight: lighter;
     font-size: 24px;
     margin-left: 144px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
 }
 
 .horaires {
@@ -401,6 +425,8 @@ button img {
 }
 
 .infospratiques h1 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     font-family: 'Instrument_Serif';
     font-weight: lighter;
     font-size: 56px;
@@ -412,6 +438,8 @@ button img {
     font-weight: lighter;
     font-size: 24px;
     margin-left: 64px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
 }
 
 .infospratiques {

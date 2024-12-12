@@ -444,17 +444,31 @@ footer a:hover {
 
 #Infos_tarifs {
     display: flex;
+    flex-direction: column;
     justify-content: space-between; 
     width: calc(100% - 288px); 
-    margin: 0 auto;  
-    gap: 20px;  
+    margin-left: 144px;  
+    gap: 10px;  
 }
+ #Infos_tarifs div{
+    justify-content: flex-start;
+    display: flex;
+    gap: 10px;
+ }
 
 #Infos_tarifs section {
     background-color: #ffffff;
-    border: 1px solid #bebebe;
     text-align: left;
-    border-radius: 8px; 
+}
+
+.tarifstitre{
+    font-family: 'Instrument_Serif';
+    font-size: 56px;
+}
+
+#reserver h3{
+    font-family: 'Outfit';
+    font-size: 32px;
 }
 
 .prix{
@@ -497,7 +511,6 @@ footer a:hover {
     text-align: center;
     gap: 0px;
     margin: 0;
-    padding: 50px;
 }
 
 #le_haut h1 {

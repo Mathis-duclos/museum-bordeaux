@@ -7,8 +7,35 @@
     <link rel="stylesheet" href="style_expo.css">
 </head>
 <body>
-    <header></header> 
-    <!-- Footer ici -->
+    <header>
+        <div class="divheader">
+            <div class="logonom">
+                <img src="images/LOGO.webp" alt="logo" width="100px">
+                <h1 class="titre"> Muséum Bordeaux</h1>
+            </div>
+            <div class="divheader">
+                <button> Fr </button>
+                <button> En </button>
+                <button> Es </button>
+            </div>
+        </div>
+        <hr>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="infos.html">Infos Pratiques</a>
+            <a href="expos.html">Expositions</a>
+            <button id="boutonmenu" onclick="affichermenu()">
+                <span>Le musée</span>
+                <img class="icone" src="images/fleche.webp" alt="fleche">
+            </button>
+        </nav>
+        <div id="menuderoulant">
+            <a href="histoire.html">Histoire du musée</a>
+            <a href="renovation.html">Rénovation</a>
+            <a href="newsletter.html">Newsletter</a>
+            <a href="ailleurs.html">Et ailleurs</a>
+        </div>
+    </header>
     <section id="le_haut"> <!-- photo + titre -->
         <p>Du 27 novembre au 13 décembre 2024</p>
         <h1>Cheminement d'un photographe</h1>

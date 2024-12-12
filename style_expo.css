@@ -178,3 +178,105 @@ footer a:hover {
 #description{ 
     padding: 100px 300px 200px 144px;
 }
+
+
+/* Section RÉSERVÉE au HEADER*/
+nav {
+    font-family: 'Outfit';
+    display: block;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#menuderoulant a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 24px;
+    font-family: 'Outfit';
+
+}
+
+#menuderoulant:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header button {
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+header button:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header select {
+    font-family: 'Outfit';
+    border: 0px;
+    appearance: none;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.divheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre {
+    margin-left: 10px;
+}
+
+.logonom {
+    display: flex;
+
+}
+
+hr {
+    border-color: black;
+    border-width: 1px;
+}
+
+
+#menuderoulant {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    background-color: white;
+    z-index: 1;
+}
+
+button img {
+    width: 15px;
+    height: 15px;
+}
+
+
+/* FIN de la section RÉSERVÉE au HEADER*/

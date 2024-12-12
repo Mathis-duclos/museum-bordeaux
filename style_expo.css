@@ -9,6 +9,13 @@
 body {
     overflow-x: hidden;
 }
+#date {
+    margin-left: 0px;
+    font-family: outfit;
+    font-size: 24px;
+
+}
+
 
 h1 {
     font-family: 'Instrument Serif';
@@ -19,13 +26,14 @@ h1 {
 h2 {
     font-family: 'Instrument Serif';
     font-size: 32px;
+    margin-left: 0px;
 }
 
 h3 {
     font-family: Outfit;
     font-size: 32px;
     margin-bottom: 70px;
-
+    margin-left: 0px;
 }
 
 p {

@@ -105,7 +105,7 @@ p {
     border-radius: 8px; 
 }
 
-/* Pour les petites résolutions d'écran genre une fenetre a la verticale, un ecran tourné, ou un telephone */
+/* SECTION RÉSERVÉE Pour les petites résolutions d'écran genre une fenetre a la verticale, un écran tourné, ou un téléphone vertical comme une iPhone 42 pro max ultra */
 @media (max-width: 1024px) {
     #Infos_tarifs {
         flex-direction: column;

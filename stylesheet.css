@@ -134,7 +134,7 @@ hr {
     color: white;
 }
 
-    
+
 .titrebienvenue {
     position: absolute;
     top: 8px;
@@ -152,22 +152,22 @@ hr {
 }
 
 .presentation {
-    margin-right:144px;
-    margin-left:144px;
+    margin-right: 144px;
+    margin-left: 144px;
 }
 
 .carre {
-    width: 812px; 
-    height: 570px; 
-    overflow: hidden; 
-    white-space: normal; 
-    text-align: left; 
-    line-height: 1.5; 
-  }
+    width: 812px;
+    height: 570px;
+    overflow: hidden;
+    white-space: normal;
+    text-align: left;
+    line-height: 1.5;
+}
 
 .fondexpos {
     background-color: #F2F2F2;
-    margin:0;
+    margin: 0;
 }
 
 
@@ -178,8 +178,8 @@ hr {
 }
 
 .expos {
-    margin-right:144px;
-    margin-left:144px;
+    margin-right: 144px;
+    margin-left: 144px;
 }
 
 .cards {
@@ -187,35 +187,37 @@ hr {
     justify-content: space-around;
     margin-bottom: -144px;
 
-  }
-  
+}
+
 .card {
     display: grid;
     grid-template-rows: max-content 300px 1fr;
-  }
-  
+}
+
 .card img {
     width: 405px;
     height: 714px;
     position: relative;
-  }
+}
 
 .content {
-    position: relative; 
+    position: relative;
 }
+
 .content h2 {
     position: absolute;
     font-size: 32px;
     font-family: 'Outfit';
     color: white;
     top: 50%;
-    margin-left:25px;
+    margin-left: 25px;
 }
+
 .content h1 {
     font-size: 32px;
     font-family: 'Instrument_serif';
     color: white;
-    margin-left:25px;
+    margin-left: 25px;
     font-weight: lighter;
     position: absolute;
     bottom: 25%;
@@ -227,14 +229,14 @@ hr {
 }
 
 
-#billet{
+#billet {
     font-size: 32px;
     font-family: 'Outfit';
     background-color: #FFF5D8;
     font-weight: lighter;
     position: absolute;
     bottom: 15%;
-    border:none;
+    border: none;
     width: 357px;
     height: 62px;
     text-align: left;
@@ -245,10 +247,10 @@ hr {
     justify-content: center;
 }
 
-.button-container2 button{
+.button-container2 button {
     font-size: 32px;
     font-family: 'Outfit';
-    color:white;
+    color: white;
     background-color: #fff5d800;
     font-weight: lighter;
     position: absolute;
@@ -259,43 +261,46 @@ hr {
     height: 62px;
     text-align: left;
 }
+
 .card2 {
     display: grid;
     grid-template-rows: max-content 300px 1fr;
-  }
-  
+}
+
 .card2 img {
     width: 405px;
     height: 714px;
     position: relative;
-  }
+}
 
 .content2 {
-    position: relative; 
+    position: relative;
 }
+
 .content2 h2 {
     position: absolute;
     font-size: 32px;
     font-family: 'Outfit';
     color: white;
     top: 50%;
-    margin-left:25px;
+    margin-left: 25px;
 
-    
+
 
 }
+
 .content2 h1 {
     font-size: 32px;
     font-family: 'Instrument_serif';
     color: white;
-    margin-left:25px;
+    margin-left: 25px;
     font-weight: lighter;
     position: absolute;
     bottom: 25%;
 
 }
 
-button img{
+button img {
     width: 15px;
     height: 15px;
 }
@@ -306,14 +311,14 @@ button img{
 }
 
 
-#billet2{
+#billet2 {
     font-size: 32px;
     font-family: 'Outfit';
     background-color: #FFF5D8;
     font-weight: lighter;
     position: absolute;
     bottom: 15%;
-    border:none;
+    border: none;
     width: 357px;
     height: 62px;
     text-align: left;
@@ -324,10 +329,10 @@ button img{
     justify-content: center;
 }
 
-.button-container4 button{
+.button-container4 button {
     font-size: 32px;
     font-family: 'Outfit';
-    color:white;
+    color: white;
     background-color: #fff5d800;
     font-weight: lighter;
     position: absolute;
@@ -339,41 +344,41 @@ button img{
     text-align: left;
 }
 
-.button-container4 button:hover{
+.button-container4 button:hover {
     background-color: #F3CA3D;
     color: black;
-    border-color:#F3CA3D ;
+    border-color: #F3CA3D;
 }
 
-.button-container2 button:hover{
+.button-container2 button:hover {
     background-color: #F3CA3D;
     color: black;
-    border-color:#F3CA3D ;
+    border-color: #F3CA3D;
 }
 
-.button-container3 button:hover{
+.button-container3 button:hover {
     background-color: #F3CA3D;
     color: black;
-    border-color:#F3CA3D ;
+    border-color: #F3CA3D;
 }
 
-#billet:hover{
+#billet:hover {
     background-color: #F3CA3D;
     color: black;
-    border-color:#F3CA3D ;
+    border-color: #F3CA3D;
 }
 
-#billet2:hover{
+#billet2:hover {
     background-color: #F3CA3D;
     color: black;
-    border-color:#F3CA3D ;
+    border-color: #F3CA3D;
 }
 
 .horairesinfos {
     display: flex;
     justify-content: center;
 
-  }
+}
 
 .horaires h1 {
     font-family: 'Instrument_Serif';
@@ -381,6 +386,7 @@ button img{
     font-size: 56px;
     margin-left: 144px;
 }
+
 .horaires h2 {
     font-family: 'Outfit';
     font-weight: lighter;
@@ -393,12 +399,14 @@ button img{
     width: 608px;
     height: 565px;
 }
+
 .infospratiques h1 {
     font-family: 'Instrument_Serif';
     font-weight: lighter;
     font-size: 56px;
     margin-left: 64px;
 }
+
 .infospratiques h2 {
     font-family: 'Outfit';
     font-weight: lighter;
@@ -445,59 +453,63 @@ footer a:hover {
 #Infos_tarifs {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    width: calc(100% - 288px); 
-    margin-left: 144px;  
-    gap: 10px;  
+    width: calc(100% - 288px);
+    margin-left: 144px;
+    gap: 10px;
 }
- #Infos_tarifs div{
-    justify-content: flex-start;
+
+#Infos_tarifs div {
+    justify-content: center;
     display: flex;
     gap: 10px;
- }
+}
 
 #Infos_tarifs section {
     background-color: #ffffff;
     text-align: left;
 }
 
-.tarifstitre{
+.tarifstitre {
     font-family: 'Instrument_Serif';
     font-size: 56px;
 }
 
-#reserver h3{
+#reserver h3 {
     font-family: 'Outfit';
     font-size: 32px;
 }
 
-.prix{
+.prix {
     font-size: 32px;
     font-weight: bold;
     margin: 0px;
 }
 
-.titreprix{
+.titreprix {
     margin: 0px;
 }
 
-#tarifplein{
+#tarifplein {
     width: 195px;
     height: 100px;
 }
-#tarifreduit{
+
+#tarifreduit {
     width: 195px;
     height: 100px;
 }
-#billetcouple{
+
+#billetcouple {
     width: 436px;
     height: 100px;
 }
-#etudiant{
+
+#etudiant {
     width: 322px;
     height: 100px;
 }
-#tarif618ans{
+
+#tarif618ans {
     width: 195px;
     height: 100px;
 }
@@ -519,7 +531,7 @@ footer a:hover {
 
 #le_haut {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
-    url("images/grois_oiseau.jpg");
+        url("images/grois_oiseau.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -531,29 +543,30 @@ footer a:hover {
 }
 
 #gallery {
-    background-color : #514151;
-    display: flex; 
-    justify-content: space-around; 
-    width: 100%; 
-    padding-left: 144px; 
+    background-color: #514151;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 144px;
     padding-right: 144px;
-    padding-top : 56px ;
-    padding-bottom : 56px ;
+    padding-top: 56px;
+    padding-bottom: 56px;
     box-sizing: border-box;
-    overflow: hidden; 
-    gap: 20px; 
+    overflow: hidden;
+    gap: 20px;
 }
 
 #gallery img {
-    height: auto; 
-    margin: 0 auto; 
+    height: auto;
+    margin: 0 auto;
     display: block;
-    width: 350px; 
+    width: 350px;
 }
 
 .fit-picture {
     width: 150px;
 }
+
 .styled {
     border: 0;
     font-size: 24px;

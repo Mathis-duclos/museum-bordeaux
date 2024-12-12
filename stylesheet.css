@@ -176,6 +176,19 @@ button img {
     margin-left: 144px;
 }
 
+.presentation h1{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.presentation h2{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.presentation p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
 .carre {
     width: 812px;
     height: 570px;
@@ -297,6 +310,11 @@ button img {
     position: relative;
 }
 
+.content h1{
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
 .content2 h2 {
     position: absolute;
     font-size: 32px;
@@ -310,6 +328,8 @@ button img {
 }
 
 .content2 h1 {
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
     font-size: 32px;
     font-family: 'Instrument_serif';
     color: white;

@@ -1,0 +1,556 @@
+@font-face {
+    font-family: 'Instrument_Serif';
+    src: url(/font/InstrumentSerif-Regular.ttf)format('truetype'),
+        url(/font/InstrumentSerif-Italic.ttf)format('italic');
+
+    font-family: 'Outfit';
+    src: url(font/Outfit-Regular.ttf)format('truetype');
+}
+
+
+
+h1 {
+    font-family: 'Instrument_Serif';
+    font-weight: lighter;
+
+}
+
+.presentation h1 {
+    font-family: 'Instrument_Serif';
+    font-weight: lighter;
+    font-size: 56px;
+
+}
+
+
+h2 {
+    font-family: 'Instrument_Serif';
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Outfit';
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+nav {
+    font-family: 'Outfit';
+    display: block;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#menuderoulant a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 24px;
+    font-family: 'Outfit';
+
+}
+
+#menuderoulant:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header button {
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+header button:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header select {
+    font-family: 'Outfit';
+    border: 0px;
+    appearance: none;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.divheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre {
+    margin-left: 10px;
+}
+
+.logonom {
+    display: flex;
+
+}
+
+hr {
+    border-color: black;
+    border-width: 1px;
+}
+
+
+#menuderoulant {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.imagemusee {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+    
+.titrebienvenue {
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    margin-left: 70px;
+    font-size: 56px;
+}
+
+.soustitrebienvenue {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    margin-left: 70px;
+    font-size: 32px;
+}
+
+.presentation {
+    margin-right:144px;
+    margin-left:144px;
+}
+
+.carre {
+    width: 812px; 
+    height: 570px; 
+    overflow: hidden; 
+    white-space: normal; 
+    text-align: left; 
+    line-height: 1.5; 
+  }
+
+.fondexpos {
+    background-color: #F2F2F2;
+    margin:0;
+}
+
+
+.expos h1 {
+    font-family: 'Instrument_Serif';
+    font-weight: lighter;
+    font-size: 56px;
+}
+
+.expos {
+    margin-right:144px;
+    margin-left:144px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -144px;
+
+  }
+  
+.card {
+    display: grid;
+    grid-template-rows: max-content 300px 1fr;
+  }
+  
+.card img {
+    width: 405px;
+    height: 714px;
+    position: relative;
+  }
+
+.content {
+    position: relative; 
+}
+.content h2 {
+    position: absolute;
+    font-size: 32px;
+    font-family: 'Outfit';
+    color: white;
+    top: 50%;
+    margin-left:25px;
+}
+.content h1 {
+    font-size: 32px;
+    font-family: 'Instrument_serif';
+    color: white;
+    margin-left:25px;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 25%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+#billet{
+    font-size: 32px;
+    font-family: 'Outfit';
+    background-color: #FFF5D8;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 15%;
+    border:none;
+    width: 357px;
+    height: 62px;
+    text-align: left;
+}
+
+.button-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container2 button{
+    font-size: 32px;
+    font-family: 'Outfit';
+    color:white;
+    background-color: #fff5d800;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 5%;
+    border: 3px solid #000;
+    border-color: #FFF5D8;
+    width: 357px;
+    height: 62px;
+    text-align: left;
+}
+.card2 {
+    display: grid;
+    grid-template-rows: max-content 300px 1fr;
+  }
+  
+.card2 img {
+    width: 405px;
+    height: 714px;
+    position: relative;
+  }
+
+.content2 {
+    position: relative; 
+}
+.content2 h2 {
+    position: absolute;
+    font-size: 32px;
+    font-family: 'Outfit';
+    color: white;
+    top: 50%;
+    margin-left:25px;
+
+    
+
+}
+.content2 h1 {
+    font-size: 32px;
+    font-family: 'Instrument_serif';
+    color: white;
+    margin-left:25px;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 25%;
+
+}
+
+button img{
+    width: 15px;
+    height: 15px;
+}
+
+.button-container3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#billet2{
+    font-size: 32px;
+    font-family: 'Outfit';
+    background-color: #FFF5D8;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 15%;
+    border:none;
+    width: 357px;
+    height: 62px;
+    text-align: left;
+}
+
+.button-container4 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container4 button{
+    font-size: 32px;
+    font-family: 'Outfit';
+    color:white;
+    background-color: #fff5d800;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 5%;
+    border: 3px solid #000;
+    border-color: #FFF5D8;
+    width: 357px;
+    height: 62px;
+    text-align: left;
+}
+
+.button-container4 button:hover{
+    background-color: #F3CA3D;
+    color: black;
+    border-color:#F3CA3D ;
+}
+
+.button-container2 button:hover{
+    background-color: #F3CA3D;
+    color: black;
+    border-color:#F3CA3D ;
+}
+
+.button-container3 button:hover{
+    background-color: #F3CA3D;
+    color: black;
+    border-color:#F3CA3D ;
+}
+
+#billet:hover{
+    background-color: #F3CA3D;
+    color: black;
+    border-color:#F3CA3D ;
+}
+
+#billet2:hover{
+    background-color: #F3CA3D;
+    color: black;
+    border-color:#F3CA3D ;
+}
+
+.horairesinfos {
+    display: flex;
+    justify-content: center;
+
+  }
+
+.horaires h1 {
+    font-family: 'Instrument_Serif';
+    font-weight: lighter;
+    font-size: 56px;
+    margin-left: 144px;
+}
+.horaires h2 {
+    font-family: 'Outfit';
+    font-weight: lighter;
+    font-size: 24px;
+    margin-left: 144px;
+}
+
+.horaires {
+    background-color: #ffffff;
+    width: 608px;
+    height: 565px;
+}
+.infospratiques h1 {
+    font-family: 'Instrument_Serif';
+    font-weight: lighter;
+    font-size: 56px;
+    margin-left: 64px;
+}
+.infospratiques h2 {
+    font-family: 'Outfit';
+    font-weight: lighter;
+    font-size: 24px;
+    margin-left: 64px;
+}
+
+.infospratiques {
+    background-color: #FFDB78;
+    width: 608px;
+    height: 565px;
+}
+
+footer {
+    background-color: #281E32;
+    text-align: center;
+    padding: 35px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 32px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: outfit;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#Infos_tarifs {
+    display: flex;
+    justify-content: space-between; 
+    width: calc(100% - 288px); 
+    margin: 0 auto;  
+    gap: 20px;  
+}
+
+#Infos_tarifs section {
+    background-color: #ffffff;
+    border: 1px solid #bebebe;
+    text-align: left;
+    border-radius: 8px; 
+}
+
+.prix{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.titreprix{
+    margin: 0px;
+}
+
+#tarifplein{
+    width: 195px;
+    height: 100px;
+}
+#tarifreduit{
+    width: 195px;
+    height: 100px;
+}
+#billetcouple{
+    width: 436px;
+    height: 100px;
+}
+#etudiant{
+    width: 322px;
+    height: 100px;
+}
+#tarif618ans{
+    width: 195px;
+    height: 100px;
+}
+
+
+#reserver {
+    background-color: #FFF5D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+    margin: 0;
+    padding: 50px;
+}
+
+#le_haut h1 {
+    margin: 0;
+}
+
+#le_haut {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url("images/grois_oiseau.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 84px 0 0 144px;
+    text-align: left;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+#gallery {
+    background-color : #514151;
+    display: flex; 
+    justify-content: space-around; 
+    width: 100%; 
+    padding-left: 144px; 
+    padding-right: 144px;
+    padding-top : 56px ;
+    padding-bottom : 56px ;
+    box-sizing: border-box;
+    overflow: hidden; 
+    gap: 20px; 
+}
+
+#gallery img {
+    height: auto; 
+    margin: 0 auto; 
+    display: block;
+    width: 350px; 
+}
+
+.fit-picture {
+    width: 150px;
+}
+.styled {
+    border: 0;
+    font-size: 24px;
+    padding: 24px 40px;
+    text-align: center;
+    color: #000000;
+    background-color: #FFDB78;
+    margin: 32px;
+}
+
+.styled:hover {
+    background-color: #FECA3D;
+}

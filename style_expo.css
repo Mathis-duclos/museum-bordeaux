@@ -118,8 +118,8 @@ p {
 }
 @media (max-width: 768px) {
     #Infos_tarifs section {
-        width: 100%; /
-        margin: 10px 0;  
+        width: 100%;
+        margin : 10px 0px;  
     }
 }
 @media (max-width: 768px) {

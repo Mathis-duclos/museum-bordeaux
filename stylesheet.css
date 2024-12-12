@@ -633,3 +633,30 @@ footer a:hover {
 .styled:hover {
     background-color: #FECA3D;
 }
+
+/* SECTION RÉSERVÉE Pour les petites résolutions d'écran genre une fenetre a la verticale, un écran tourné, ou un téléphone vertical comme une iPhone 42 pro max ultra */
+@media (max-width: 1024px) {
+    .horairesinfos {
+        flex-direction: column;
+    }
+
+    .horairesinfos div {
+        width: 100%;  
+        margin: 10px 0;
+    }
+}
+@media (max-width: 768px) {
+    .horairesinfos div {
+        width: 100%;
+        margin : 10px 0px;  
+    }
+}
+@media (max-width: 768px) {
+    .horairesinfos div {
+        width: 100%; 
+        margin: 10px 0;
+    }
+}
+
+
+/* fin de la section reservée pour les petis ecran (encore plus petits que Hélène) */

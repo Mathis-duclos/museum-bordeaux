@@ -254,6 +254,7 @@ button img {
         width: 90%;
         margin-left: 5%;
         padding:0;
+        padding-bottom: 50px;
     }
     #date {
         padding-top: 10%;

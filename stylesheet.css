@@ -751,6 +751,125 @@ footer a:hover {
     }
 }
 
+@media (max-width: 1024px) {
+    .fondexpos {
+        width: auto;
+        height: auto;
+        
+    }
+}
+
+@media (max-width: 1024px) {
+    .expos h1 {
+        width: 100%;
+        padding-top: 24px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .expos {
+        width: 100%;
+        margin-right: 24px;
+        margin-left: 24px;
+        
+    }
+}
+
+@media (max-width: 1024px) {
+    .cards {
+        width: auto;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card {
+        width: 200px;
+    }
+}
+@media (max-width: 1024px) {
+    .card img {
+        width: 242px;
+        height: 638px;
+    }
+}
+@media (max-width: 1024px) {
+    #billet {
+        width: 194px;
+        height: 52px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #billet span{
+        width: 194px;
+        height: 52px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    #infoexpo {
+        width: 194px;
+        height: 52px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #infoexpo span {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card2 {
+        width: 200px;
+    }
+}
+@media (max-width: 1024px) {
+    .card2 img {
+        width: 242px;
+        height: 638px;
+    }
+}
+@media (max-width: 1024px) {
+    #billet2 {
+        width: 194px;
+        height: 52px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #billet2 span{
+        width: 194px;
+        height: 52px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    #infoexpo2 {
+        width: 194px;
+        height: 52px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #infoexpo2 span {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
 
 
 /* fin de la section reservée pour les petis ecran (encore plus petits que Hélène) */

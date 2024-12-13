@@ -7,6 +7,8 @@
     src: url(font/Outfit-Regular.ttf)format('truetype');
 }
 
+body {overflow-x: hidden;}
+
 *{
     padding:0px;
     margin: 0px;
@@ -152,6 +154,7 @@ button img {
     position: relative;
     text-align: center;
     color: white;
+    max-width: 100%;
 }
 
 
@@ -657,6 +660,97 @@ footer a:hover {
         margin: 10px 0;
     }
 }
+
+
+@media (max-width: 1024px) {
+    .fondmenu {
+        width: 100%;
+        margin : 10px 0;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .titrebienvenue {
+        width: 0%;
+        margin : 10px 0;
+        font-size: 0;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .soustitrebienvenue {
+        width: 0%;
+        margin : 10px 0;
+        font-size: 0;
+
+    }
+}
+@media (max-width: 1024px) {
+    .presentation {
+        width: auto;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .presentation h1 {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .presentation h2 {
+        width: 100%;
+        font-size: 16px;
+        font-family: 'Outfit';
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1024px) {
+    .presentation p {
+        width: 100%;
+        font-size: 0;
+        font-family: 'Outfit';
+    }
+}
+
+@media (max-width: 1024px) {
+    .presentation .mobtext {
+        width: 100%;
+        font-size: 16px;
+        font-family: 'Outfit';
+    }
+}
+
+@media (min-width: 1024px) {
+    .presentation p {
+        width: 100%;
+        font-size: 24px;
+        font-family: 'Outfit';
+    }
+}
+
+@media (min-width: 1024px) {
+    .presentation .mobtext {
+        width: 100%;
+        font-size: 16px;
+        font-family: 'Outfit';
+        display:none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .carre {
+        width: auto;
+        height: auto;
+    }
+}
+
 
 
 /* fin de la section reservée pour les petis ecran (encore plus petits que Hélène) */

@@ -238,6 +238,10 @@ button img {
 
 /* SECTION RÉSERVÉE Pour les petites résolutions d'écran genre une fenetre a la verticale, un écran tourné, ou un téléphone vertical comme une iPhone 42 pro max ultra */
 @media (max-width: 1024px) {
+    #reserver {
+        margin: 0%;
+        padding: 0%;
+    }
     #Infos_tarifs {
         flex-direction: column;
     }
@@ -307,7 +311,7 @@ button img {
         margin-right: 16px;
     }
 }
-/* fin de la section reservée pour les petis ecran (encore plus petits que Hélène) */
+/* fin de la section reservée pour les petis ecran (encore plus petits que Hélène et oauis, c'est possible) */
 
 .styled {
     border: 0;

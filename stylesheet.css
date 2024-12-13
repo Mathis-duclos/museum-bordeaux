@@ -780,18 +780,35 @@ footer a:hover {
     .cards {
         width: auto;
         flex-direction: column;
+        gap: 24px;
     }
 }
 
 @media (max-width: 1024px) {
     .card {
         width: 200px;
+        grid-template-rows: max-content 0px 1fr;
     }
 }
 @media (max-width: 1024px) {
     .card img {
         width: 242px;
         height: 638px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content h2 {
+        font-size: 24px;
+    }
+    .content h1 {
+        font-size: 24px;
+    }
+    .content2 h2 {
+        font-size: 24px;
+    }
+    .content2 h1 {
+        font-size: 24px;
     }
 }
 @media (max-width: 1024px) {
@@ -829,6 +846,7 @@ footer a:hover {
 @media (max-width: 1024px) {
     .card2 {
         width: 200px;
+        grid-template-rows: max-content 170px 1fr;
     }
 }
 @media (max-width: 1024px) {
@@ -866,6 +884,74 @@ footer a:hover {
         font-size: 16px;
         display: flex;
         justify-content: center;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .tarifstitre {
+        font-size: 24px;
+    }
+    #reserver h3{
+        font-size: 16px;
+    }
+    #reserver div{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #Infos_tarifs{
+        margin-left: 0px;
+        width: 272px;
+    }
+    .titreprix{
+        font-size: 16px;
+    }
+    .prix{
+        font-size: 20px;
+    }
+    #tarifplein{
+        width: 272px;
+        height: 73px;
+    }
+    #billetcouple{
+        width: 272px;
+        height: 73px;
+    }
+    #tarifreduit{
+        width: 272px;
+        height: 73px;
+    }
+    #etudiant{
+        width: 272px;
+        height: 73px;
+    }
+    #tarif618ans{
+        width: 272px;
+        height: 73px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .horaires{
+        height: 327px;
+    }
+    .horaires h1{
+        font-size: 24px;
+    }
+    .horaires h2{
+        font-size: 16px;
+    }
+    .infospratiques{
+        height: 461px;
+    }
+    .infospratiques h1{
+        font-size: 24px;
+        margin-left: 24px;
+    }
+    .infospratiques h2{
+        margin: 24px;
+        font-size: 16px;
     }
 }
 

@@ -807,7 +807,7 @@ footer a:hover {
 }
 @media (max-width: 1024px) {
     .card img {
-        width: 242px;
+        width: 300px;
         height: 638px;
     }
 }
@@ -866,7 +866,7 @@ footer a:hover {
 }
 @media (max-width: 1024px) {
     .card2 img {
-        width: 242px;
+        width: 300px;
         height: 638px;
     }
 }

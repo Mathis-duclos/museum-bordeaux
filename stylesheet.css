@@ -970,7 +970,42 @@ footer a:hover {
     }
 }
 
-
-
+@media (max-width: 1024px) {
+    .menutel  {
+        display: flex;
+    }
+    #burger{
+        width: 50px;
+        height: 50px;
+    }
+}
 
 /* fin de la section reservée pour les petis ecran (encore plus petits que Hélène) */
+@media (min-width: 1024px){
+.menutel{
+    display: none;
+    justify-content: center;
+    align-items: center;   
+}
+}
+[popover]{
+left: 46px;
+top: 25%;
+height: 150px;
+width: 300px;
+opacity: 0;
+pointer-events: none;
+border-color: #F3CA3D;
+border-width: 5px;
+}
+
+:popover-open {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.telnavig {
+    display: flex;
+    flex-direction: column;
+}
+

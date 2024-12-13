@@ -221,7 +221,6 @@ button img {
 .cards {
     display: flex;
     justify-content: space-around;
-    margin-bottom: -144px;
 
 }
 
@@ -304,7 +303,7 @@ a {
 }
 
 .card2 {
-    display: grid;
+    display: flex;
     grid-template-rows: max-content 300px 1fr;
 }
 
@@ -780,7 +779,6 @@ footer a:hover {
     .cards {
         width: auto;
         flex-direction: column;
-        align-items: center;
         gap: 24px;
     }
 }

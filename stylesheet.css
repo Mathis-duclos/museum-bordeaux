@@ -780,6 +780,7 @@ footer a:hover {
     .cards {
         width: auto;
         flex-direction: column;
+        align-items: center;
         gap: 24px;
     }
 }

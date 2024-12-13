@@ -250,9 +250,17 @@ button img {
         padding: 0;
     }
     #description {
+        margin-top: 5%;
         width: 90%;
         margin-left: 5%;
         padding:0;
+    }
+    #date {
+        padding-top: 10%;
+        margin-left: 5%;
+    }
+    h1#titre_expo {
+        margin: 5%;
     }
     p {
         font-weight: 16px;

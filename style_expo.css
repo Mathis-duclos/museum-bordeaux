@@ -250,6 +250,18 @@ button img {
         margin-left: 5%;
         padding:0;
     }
+    p {
+        font-weight: 16px;
+    }
+    h2, h3 {
+        font-weight: 24px;
+    }
+    h1{
+        font-weight: 2Opx;
+    }
+    img {
+        max-width: 90%;
+    }
     #le_haut {
         width: 100%;
         margin: 0;
@@ -257,15 +269,27 @@ button img {
     }
     header {
         width: 100%;
+        padding: 0%;
+        margin: 0%;
     }
-    #menuderoulant {
-        width: 100%;
+    #langue {
+        display: none ;
+    }
+
+    header nav {
+        display: none;
     }
 
     #Infos_tarifs section {
         width: 100%;  
         margin: 10px 0;
     }
+    #gallery {
+        width: 100%;
+        flex-direction: column;
+        padding: 10% ;
+    }
+
 }
 @media (max-width: 768px) {
     #Infos_tarifs section {

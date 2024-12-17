@@ -1,11 +1,5 @@
-@font-face {
-    font-family: 'Instrument_Serif';
-    src: url(/font/InstrumentSerif-Regular.ttf)format('truetype'),
-        url(/font/InstrumentSerif-Italic.ttf)format('italic');
-
-    font-family: 'Outfit';
-    src: url(font/Outfit-Regular.ttf)format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@100..900&display=swap');
 
 body {overflow-x: hidden;}
 
@@ -15,13 +9,13 @@ body {overflow-x: hidden;}
 }
 
 h1 {
-    font-family: 'Instrument_Serif';
+    font-family: 'Instrument Serif';
     font-weight: lighter;
 
 }
 
 .presentation h1 {
-    font-family: 'Instrument_Serif';
+    font-family: 'Instrument Serif';
     font-weight: lighter;
     font-size: 56px;
 
@@ -29,7 +23,7 @@ h1 {
 
 
 h2 {
-    font-family: 'Instrument_Serif';
+    font-family: 'Instrument Serif';
     font-weight: lighter;
     font-size: 32px;
 }
@@ -210,7 +204,7 @@ button img {
 
 
 .expos h1 {
-    font-family: 'Instrument_Serif';
+    font-family: 'Instrument Serif';
     font-weight: lighter;
     font-size: 56px;
 }
@@ -252,7 +246,7 @@ button img {
 
 .content h1 {
     font-size: 32px;
-    font-family: 'Instrument_serif';
+    font-family: 'Instrument Serif';
     color: white;
     margin-left: 25px;
     font-weight: lighter;
@@ -340,7 +334,7 @@ a {
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
     font-size: 32px;
-    font-family: 'Instrument_serif';
+    font-family: 'Instrument Serif';
     color: white;
     margin-left: 25px;
     font-weight: lighter;
@@ -432,7 +426,7 @@ button img {
 .horaires h1 {
     margin-block-start: 1em;
     margin-block-end: 1em;
-    font-family: 'Instrument_Serif';
+    font-family: 'Instrument Serif';
     font-weight: lighter;
     font-size: 56px;
     margin-left: 144px;
@@ -527,7 +521,7 @@ footer a:hover {
 }
 
 .tarifstitre {
-    font-family: 'Instrument_Serif';
+    font-family: 'Instrument Serif';
     font-size: 56px;
 }
 
